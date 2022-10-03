@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "ingredients",
+    # This will also make the `graphql_schema` management command available
     "graphene_django",
+    "ingredients",
 ]
 
 MIDDLEWARE = [
